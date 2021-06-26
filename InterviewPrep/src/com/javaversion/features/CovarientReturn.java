@@ -6,7 +6,7 @@ public class CovarientReturn {
 		C c;
 		// pointing to class C
 		c = new C();
-		System.out.println("Value from class C " + c.getValue().name);
+		System.out.println("Value from git class C " + c.getValue().name);
 		// now pointing to class D
 		c = new D();
 		System.out.println("Value from class D " + c.getValue().name);
