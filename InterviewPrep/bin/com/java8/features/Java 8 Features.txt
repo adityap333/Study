@@ -1,0 +1,20 @@
+Java 8 new Features:
+--------------------
+Concise (small) code
+Enabling functional Programming
+
+1. Lambda Expression
+2. Functional Interface
+3. Default Methods and static Methods
+4. Predefined Functional Intrefaces
+   Predicare
+   Function
+   Consumer
+   Supplier
+5. Double Colon Operator(::)
+	Method reference
+	Constructor Refernce
+6. Stremas
+7. Date and time API
+8. Optional Classes
+9. Nashorn JavaScript Engine	

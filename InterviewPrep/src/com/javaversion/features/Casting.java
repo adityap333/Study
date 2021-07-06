@@ -1,6 +1,10 @@
 package com.javaversion.features;
 
 public class Casting {
+	final String abc;
+	public Casting() {
+		abc="";
+	}
 	public static void main(String[] args) {
 		MainCastion cast;
 		BB b = new BB();
@@ -42,6 +46,7 @@ class BB extends AbstractClass {
 
 	@Override
 	void mymethod() {
+		String abc = "red";
 		System.out.println("implemented");
 		
 	}
