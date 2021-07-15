@@ -34,5 +34,11 @@ public class LambdaExpression {
 		return n*n;
 	}
 	
-	n -> return n*n; 
+	/******************
+	 * 	Syntex of lambda expressions
+	 *	n -> return n*n; = invalid 
+	 *  n ->{return n*n;};= valid
+	 *  n ->{return n*n};= invalid
+	 *  n -> n*n; = valid
+	 */
 }
