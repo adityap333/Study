@@ -6,6 +6,7 @@ package com.java8.features;
 	No access modifiers
 	LE can be called via Functional interface
 */
+
 /******************
  * Examples of functional interface
  * Runnable = run()
@@ -41,4 +42,17 @@ public class LambdaExpression {
 	 *  n ->{return n*n};= invalid
 	 *  n -> n*n; = valid
 	 */
+	
+}
+
+@FunctionalInterface
+interface myFunctionalInterface{
+	abstract void yesIamAbstract();
+	default void m2() {
+		System.out.println("I am default");
+	}
+	public static void m3()
+	{
+		System.out.println("I am static");
+	}
 }
