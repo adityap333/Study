@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: Aditya
+Build-Jdk: 15.0.2
+Implementation-Title: spring-design-patterns
+Implementation-Version: 1.0.0-SNAPSHOT
+Implementation-Vendor-Id: com.frankmoley.lil
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/spring-design-patterns
+Created-By: Maven Integration for Eclipse
+
