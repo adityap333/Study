@@ -22,20 +22,9 @@ public class LambdaInference {
 		
 		// OK: cast added
 		Object x3 = (Consumer<String>) ((String msg) -> System.out.println(msg.length()));
+		Object x4 = (Consumer<String>) (msg -> System.out.println(msg.length()));
 
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+
 		// *** Part 2: identify parameter types
 
 		

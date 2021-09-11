@@ -5,6 +5,11 @@ Enabling functional Programming
 
 1. Lambda Expression
 2. Functional Interface
+		Pre existing functional interfaces
+			Runnable and callable
+			ActionListner
+			Comparable and comparator
+		14 New functional Interfaces
 3. Default Methods and static Methods
 4. Predefined Functional Intrefaces
    Predicare

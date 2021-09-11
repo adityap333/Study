@@ -1,0 +1,15 @@
+Type Inference in Lambda Expression(Type inference is automatically detecting type of parameter/return type)
+	Identify Functional Interface being implemented.
+		Context must contain enough info to identify receving Functional interface
+		e.g Consumer<String> = lambda (here RHS tells which FI to refer) 
+	Identify parameter types.
+		Actual Parameter or constructor
+		e.g. new Thread(lambda)
+	Identify argument of return type:
+		e.g. return lambda
+
+Capturing Values:
+	Lambda expression can access:
+		Static fields of enclosing class
+		Instance fields of enclosing object		
+	
