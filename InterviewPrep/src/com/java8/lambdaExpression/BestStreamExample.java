@@ -1,6 +1,8 @@
 package com.java8.lambdaExpression;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
 import java.util.Random;
 import java.util.function.BinaryOperator;
@@ -110,4 +112,42 @@ public class BestStreamExample {
 		List<Integer> newList = myList.stream().distinct().collect(Collectors.toList());
 		System.out.println("new List : " + newList);
 	}
+	public static void SortWithComparator()
+	{
+		List<User> userList = new ArrayList<>(Arrays.asList(
+		        new User("John", 33), 
+		        new User("Robert", 26), 
+		        new User("Mark", 26), 
+		        new User("Brandon", 42)));
+
+		List<User> sortedList = userList.stream()
+		        .sorted(Comparator.comparingInt(User::getAge))
+		        .collect(Collectors.toList());
+
+		sortedList.forEach(System.out::println);
+	}
+}
+class User {
+    
+    private String name;
+    private int age;
+    
+	public User(String name, int age) {
+		super();
+		this.name = name;
+		this.age = age;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
+    
 }
